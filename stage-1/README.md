@@ -10,6 +10,8 @@ Customer Support has just identified a problem with one of our service applicati
 
 We need to identify the affected customers and notify Customer Support with the customer's name, phone number and email address inside a .txt file.
 
+Note: the Customer Support tend to not be very technical so keep that mind when producing the .txt file.
+
 There is a list of our latest customers [here](./latest-customers.txt)
 
 Please write a function in your chosen language to produce the .txt file.
