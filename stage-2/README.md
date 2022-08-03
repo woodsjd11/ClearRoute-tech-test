@@ -9,16 +9,16 @@
 
 ## Background
 
-You have recently started an engagement for a new customer. Your task is to set up continuous integration (CI) for an existing Create Read Update Delete NodeJS service so the team can deploy more often and with better confidence.
+You have recently started an engagement for a new customer. Your task is to set up Continuous Integration (CI) for an existing Create Read Update Delete NodeJS service so the team can deploy more often and with better confidence.
 
-Until now, the feature team have run all validation on their local machines before pushing to the main branch. 
+Until now, the feature team who build the app run all validation on their local machines before pushing to the main branch. 
 
 
-Please write a GitHub actions pipeline (this is free to do for open source repositories) which will trigger on a new push to main and validate the following areas in the pipeline for the project
+Please write a GitHub actions pipeline in a branch (this is free to do for open source repositories) which will trigger on a new push to the remote and validate the following areas in the pipeline for the project
 
-Test
-Build
-Lint
+- End To End Tests
+- The app can Build 
+- Static Code Analyse (Lint)
 
 Once done, create a new PR with your changes and link ClearRoute the PR to review.
 
