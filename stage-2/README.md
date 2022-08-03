@@ -9,7 +9,8 @@
 
 ## Background
 
-You have recently started an engagement for a new customer. Your task is to set up continuous integration (CI) for an existing NodeJS service so the team can deploy more often and with better confidence..
+You have recently started an engagement for a new customer. Your task is to set up continuous integration (CI) for an existing Create Read Update Delete NodeJS service so the team can deploy more often and with better confidence.
+
 Until now, the feature team have run all validation on their local machines before pushing to the main branch. 
 
 
