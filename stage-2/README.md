@@ -22,8 +22,8 @@ Lint
 Once done, create a new PR with your changes and link ClearRoute the PR to review.
 
 ### Notes
-Think about which order you will want to run things.
-You should not have to change any of the app code.
-You don't need to run the app locally.
-It may be easier to use docker to run the database dependency instead of running it locally.
-The project README.md is the best place to look on how to get the app up and running.
+- Think about which order you will want to run things.
+- You should not have to change any of the app code.
+- You don't need to run the app locally.
+- It may be easier to use docker to run the database dependency instead of running it locally.
+- The project README.md is the best place to look on how to get the app up and running.
