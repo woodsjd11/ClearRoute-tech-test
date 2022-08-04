@@ -2,9 +2,6 @@ import "../global.css";
 import React from "react";
 import Layout from "../components/layout";
 import { colours } from "../styles";
-import "../notionStyles.css";
-import "prismjs/themes/prism-tomorrow.css";
-import "katex/dist/katex.min.css";
 
 export default (props) => {
   const { Component, pageProps } = props;
