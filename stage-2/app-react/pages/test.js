@@ -7,7 +7,7 @@ const feeder = "JOIN US";
 
 export default function Contact() {
   const data = [
-    [1,2,3,4,5,6,7,8,9],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9],
     [23, 50, 63, 90, 10, 30, 155, 23, 18],
     [133, 60, 23, 92, 6, 7, 168, 16, 19],
     [30, 43, 29, 10, 50, 40, 99, 51, 12],
@@ -26,8 +26,8 @@ export default function Contact() {
           <div className="container">
             <div className="description">
               <p>
-                Use a browser based testing tool to read the integer table on the right
-                and create a data structure.
+                Use a browser based testing tool to read the integer table on
+                the right and create a data structure.
               </p>
               <p>
                 Once you have the data, write a function to go through each row
@@ -41,26 +41,19 @@ export default function Contact() {
               <p>10, 15, 5, 7, 1, 24, 36, 2</p>
               <p>
                 index 5 (with the value of 24) would be the center to return
-                </p>
-                <p>
-                 as 10 + 15 +
-                5 + 7 + 1 = 38 </p> 
-                <p>
-                  and 36 + 2 = 38
               </p>
+              <p>as 10 + 15 + 5 + 7 + 1 = 38 </p>
+              <p>and 36 + 2 = 38</p>
             </div>
             <center>
-              <div className="table">
+              <div testId="the-table" className="table">
                 <table>
-                  {/* <tr>
-                    {new Array(9).fill(0).map((_, i) => (
-                      <td key={i}>{i}</td>
-                    ))}
-                  </tr> */}
-                  {data.map((row) => (
-                    <tr>
-                      {row.map((cell) => (
-                        <td key={cell}>{cell}</td>
+                  {data.map((row, i) => (
+                    <tr testId={`row-${i}`}>
+                      {row.map((cell, i) => (
+                        <td testId={`cell-${i}`} key={cell}>
+                          {cell}
+                        </td>
                       ))}
                     </tr>
                   ))}
@@ -78,12 +71,8 @@ export default function Contact() {
             display: flex;
           }
 
-          .address {
-            padding-top: 40px;
-          }
-
           .description {
-            margin-left: 50px;
+            margin-left: 10px;
             max-width: 600px;
             padding-right: 50px;
           }
@@ -96,14 +85,13 @@ export default function Contact() {
 
           .contactPage {
             padding: 0;
-            height: 100vh;
+            height: 1500px;
             margin: auto;
             max-width: 1600px;
             alight-items: center;
             position: relative;
             z-index: 1;
             background: ${colours.dark};
-            min-height: 73vw;
           }
 
           .contactUsContainer {
@@ -118,27 +106,30 @@ export default function Contact() {
             color: ${colours.white};
           }
 
-          h2 {
-            ${fonts.secondaryTitle.full}
-            font-weight: normal;
-          }
-
           p {
-            
             ${fonts.paragraphText.full}
             color: ${colours.light};
-
           }
+
           .table {
             padding-top: 50px;
             flex: 1;
-
             padding-bottom: 100px;
             background: ${colours.dark};
           }
 
-          h3 {
-            ${fonts.paragraphText.full}
+          @media screen and (max-width: 1000px) {
+            .description {
+              min-width: 500px;
+            }
+
+            .container {
+              display: block;
+            }
+
+            .table {
+              flex: 0;
+            }
           }
         `}</style>
       </div>
