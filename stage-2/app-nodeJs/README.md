@@ -13,7 +13,7 @@
 npm i
 ```
 
-#### Set environment (vars):
+#### Set environment vars:
 ```sh
 cp .env.example .env
 ```
