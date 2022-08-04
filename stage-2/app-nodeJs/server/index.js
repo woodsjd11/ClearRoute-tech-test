@@ -4,9 +4,6 @@ import app from './config/express';
 /* eslint-disable no-unused-vars */
 import db from './config/sequelize';
 
-const debug = require('debug')('api-app:index');
-/* eslint-enable no-unused-vars */
-
 // Get default logger
 const logger = loggers.get(config.loggerName); // eslint-disable-line no-global-assign
 

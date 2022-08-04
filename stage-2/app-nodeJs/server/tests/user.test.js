@@ -3,7 +3,7 @@
 import request from 'supertest';
 import httpStatus from 'http-status';
 import app from '../../index';
-import config from '../../config/config';
+import config from '../config/config';
 import db from '../../config/sequelize';
 
 const apiVersionPath = `/api/v${config.apiVersion}`;

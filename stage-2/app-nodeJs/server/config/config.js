@@ -1,13 +1,7 @@
-/**
- * express-validation exposes a version of Joi as a hard dependency,
- * in order to avoid compatibility issues with other versions of Joi.
- */
 import { Joi } from 'express-validation';
 
-// require and configure dotenv, will load vars in .env in PROCESS.ENV
 require('dotenv').config();
 
-// define validation for all the env vars
 const envVarsSchema = Joi.object({
   NODE_ENV: Joi.string()
     .valid('development', 'production', 'test', 'provision')

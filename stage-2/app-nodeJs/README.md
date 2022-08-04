@@ -23,6 +23,11 @@ cp .env.example .env
 docker run  -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres`
 ```
 
+#### Build:
+```sh
+npm run build
+```
+
 #### Run:
 ```sh
 npm run start

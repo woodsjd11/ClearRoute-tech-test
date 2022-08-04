@@ -8,11 +8,9 @@
         "@babel/plugin-proposal-object-rest-spread",
     ],
     "presets": [
-        "@babel/preset-env",
-        "@babel/preset-react",
+        "@babel/preset-env"
     ],
     "ignore": [
-        "build/yarn/**/*.js",
         "build/nodejs/**/*.js"
     ]
 }
