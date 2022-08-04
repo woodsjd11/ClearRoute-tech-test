@@ -36,22 +36,17 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "@babel/node": "^7.18.10",
-    "babel-node": "^0.0.1-security",
     "bluebird": "^3.7.2",
     "body-parser": "^1.19.1",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "debug": "^4.3.3",
     "del": "^6.0.0",
     "dotenv": "^15.0.0",
     "express": "^4.17.2",
     "express-jwt": "^6.1.0",
     "express-validation": "^3.0.8",
     "express-winston": "^4.2.0",
-    "gulp": "4.0.2",
-    "gulp-load-plugins": "^2.0.7",
     "helmet": "^5.0.2",
     "http-status": "^1.5.0",
     "jsonwebtoken": "8.5.1",
@@ -60,13 +55,13 @@
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.14.1",
-    "supertest": "^6.2.2",
     "winston": "^3.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.10",
     "@babel/eslint-parser": "^7.16.5",
+    "@babel/node": "^7.18.10",
     "@babel/plugin-proposal-export-default-from": "^7.16.7",
     "@babel/plugin-proposal-export-namespace-from": "^7.16.7",
     "@babel/plugin-proposal-function-bind": "^7.16.7",
@@ -75,15 +70,13 @@
     "@babel/plugin-syntax-export-namespace-from": "^7.8.3",
     "@babel/plugin-transform-modules-commonjs": "^7.16.8",
     "@babel/preset-env": "^7.18.10",
-    "@babel/preset-react": "^7.16.7",
-    "@babel/register": "^7.16.9",
-    "babel-loader": "^8.2.3",
     "eslint": "^8.7.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-watch": "^8.0.0",
-      "jest": "^27.4.7",
+    "jest": "^27.4.7",
     "jest-fetch-mock": "^3.0.3",
-    "jsdom": "^19.0.0"
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.2"
   }
 }
