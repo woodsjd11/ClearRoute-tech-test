@@ -3,9 +3,6 @@
 ## Dependencies
 - [Github](https://github.com/)
 - [Github Actions](https://github.com/)
-- [Node](https://nodejs.org/en/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [npm](https://www.npmjs.com/)
 
 ## Background
 
