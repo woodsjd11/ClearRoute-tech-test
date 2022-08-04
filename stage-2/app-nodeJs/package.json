@@ -82,19 +82,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-watch": "^8.0.0",
-    "gulp-babel": "8.0.0",
-    "gulp-newer": "^1.4.0",
-    "gulp-nodemon": "^2.5.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "husky": "^7.0.4",
-    "jest": "^27.4.7",
+      "jest": "^27.4.7",
     "jest-fetch-mock": "^3.0.3",
-    "jsdom": "^19.0.0",
-    "validate-commit-msg": "^2.6.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "esw *.js server config --color && jest"
-    }
+    "jsdom": "^19.0.0"
   }
 }
