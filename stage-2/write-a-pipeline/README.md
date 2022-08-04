@@ -6,22 +6,24 @@
 
 ## Background
 
-You have recently started an engagement for a new customer. Your task is to set up Continuous Integration (CI) for an existing Create Read Update Delete NodeJS service so the team can deploy more often and with better confidence.
+You have recently started an engagement for a new customer. Until now, the feature team who builds a Create, Read, Update, Delete (CRUD) NodeJS service runs all validation on their local machines before pushing to the main branch. 
+As a result, the engineers often forget to run tests before pushing and find themselves slowing down.
+The customer has approached ClearRoute to set up Continuous Integration (CI) app so the team can deploy more often and with better confidence.
 
-Until now, the feature team who build the app run all validation on their local machines before pushing to the main branch. 
 
+## Test
 
-Please write a GitHub actions pipeline in a branch (this is free to do for open source repositories) which will trigger on a new push to the remote and validate the following areas in the pipeline for the project
+Please write a GitHub actions pipeline in a branch (this is free to do for open source repositories) which will trigger on a new push to the remote and validate the following areas in the pipeline for the project.
 
 - End To End Tests
 - The app can Build 
 - Static Code Analyse (Lint)
 
-Once done, link ClearRoute the actions file to review.
+Once done, link ClearRoute to the actions file to review.
 
 ### Notes
 - Think about which order you will want to run things.
 - You should not have to change any of the app code.
 - You don't need to run the app locally.
 - It may be easier to use docker to run the database dependency instead of running it locally.
-- The project README.md is the best place to look on how to get the app up and running.
+- The project README.md is the best place to look at how to get the app building and running.

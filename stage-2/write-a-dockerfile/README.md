@@ -13,7 +13,7 @@ Please write a Dockerfile for one of the app examples.
 
 Once complete, please include a screenshot of the terminal with the application running and link ClearRoute to the URL. 
 
-### Notes:
+### Notes
 - You may consider using Container Orchestration for database dependencies but this is not required.
 - Take into consideration Dockerfile best practice where possible.
 
