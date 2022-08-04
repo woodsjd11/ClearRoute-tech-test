@@ -20,7 +20,7 @@ Please write a GitHub actions pipeline in a branch (this is free to do for open 
 - The app can Build 
 - Static Code Analyse (Lint)
 
-Once done, create a new PR with your changes and link ClearRoute the PR to review.
+Once done, link ClearRoute the actions file to review.
 
 ### Notes
 - Think about which order you will want to run things.
