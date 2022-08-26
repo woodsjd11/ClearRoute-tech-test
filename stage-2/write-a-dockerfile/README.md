@@ -1,4 +1,4 @@
-# Stage 2 - Ship everywhere
+# Stage 2 - Ship Everywhere
 
 ## Dependencies
 - [Docker](https://www.docker.com/)
