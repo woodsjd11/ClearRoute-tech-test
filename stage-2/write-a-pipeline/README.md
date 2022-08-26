@@ -1,4 +1,4 @@
-# Stage 2 - Start deploying with confidence
+# Stage 2 - Deploying With Confidence
 
 ## Dependencies
 - [Github](https://github.com/)
