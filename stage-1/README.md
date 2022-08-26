@@ -15,16 +15,16 @@ There is a list of our latest customers [here](./latest-customers.txt)
 
 ## Test
 
-Please write a function in your chosen language to produce the .txt file.
+Please write some code in your chosen language to produce the .txt file.
 
 Once complete: 
  - Create a feature branch
  - Commit your created .txt file
-- Push this repository to your own Github profile
-- Raise a pull/merge request
-- Send Customer Support (ClearRoute hiring manager) the URL of the PR
+ - Push this repository to your own Github profile
+ - Raise a pull/merge request
+ - Send Customer Support (ClearRoute hiring manager) the URL of the PR
 
 ### Notes
 
  - The Customer Support teams tends to not be very technical so keep that mind when producing the .txt file.
-
+ - Clean Code will be one of the score marks
