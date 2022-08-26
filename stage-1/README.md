@@ -1,4 +1,4 @@
-# Stage 1 - Write a function
+# Stage 1 - Write Some Code
 
 ## Dependencies
 [Github](https://github.com/)
