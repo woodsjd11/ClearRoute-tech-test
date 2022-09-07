@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "## Dependencies [Github](https://github.com/)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
