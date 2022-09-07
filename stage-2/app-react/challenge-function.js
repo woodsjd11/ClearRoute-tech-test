@@ -23,5 +23,5 @@ export default function findIndex(numbers) {
     // if index not found then continue
     index++;
   }
-  return index;
+  return index === length ? null : index
 }

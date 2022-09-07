@@ -70,6 +70,10 @@ describe("findInteger function", () => {
     const numbers = [10, 15, 5, 7, 1, 24, 36, 2];
     const result = findIndex(numbers);
     expect(result).to.equal(5);
-    
   });
+  it("returns null when no index can be found", ()=>{
+    const numbers = [2,2,2,2];
+    const result = findIndex(numbers);
+    expect(result).to.equal(null);
+  })
 });
