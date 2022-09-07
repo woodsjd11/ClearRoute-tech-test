@@ -71,9 +71,54 @@ describe("findInteger function", () => {
     const result = findIndex(numbers);
     expect(result).to.equal(5);
   });
-  it("returns null when no index can be found", ()=>{
-    const numbers = [2,2,2,2];
+  it("returns null when no index can be found", () => {
+    const numbers = [2, 2, 2, 2];
     const result = findIndex(numbers);
     expect(result).to.equal(null);
-  })
+  });
+  describe("intgers from the challenge", () => {
+    beforeEach(() => {
+      cy.visit("http://localhost:3000/");
+      cy.get('[href="/test"] button').click();
+    });
+    it("returns the correct index for row-1", () => {
+      cy.get('[testid="row-1"]')
+        .find("td")
+        .then((data) => {
+          const cells = [...data];
+          const rowContent = [];
+          cells.forEach((cell) => {
+            rowContent.push(+cell.innerText);
+          });
+          const result = findIndex(rowContent);
+          expect(result).to.equal(4);
+        });
+    });
+    it("returns the correct index for row-2", () => {
+      cy.get('[testid="row-2"]')
+        .find("td")
+        .then((data) => {
+          const cells = [...data];
+          const rowContent = [];
+          cells.forEach((cell) => {
+            rowContent.push(+cell.innerText);
+          });
+          const result = findIndex(rowContent);
+          expect(result).to.equal(3);
+        });
+    });
+    it("returns the correct index for row-3", () => {
+      cy.get('[testid="row-3"]')
+        .find("td")
+        .then((data) => {
+          const cells = [...data];
+          const rowContent = [];
+          cells.forEach((cell) => {
+            rowContent.push(+cell.innerText);
+          });
+          const result = findIndex(rowContent);
+          expect(result).to.equal(5);
+        });
+    });
+  });
 });

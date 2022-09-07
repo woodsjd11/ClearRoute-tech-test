@@ -3,6 +3,7 @@ export default function findIndex(numbers) {
   let index = 1;
   let leftSum = 0;
   let rightSum = 0;
+  console.log(index);
 
   while (index < length) {
     //reset sums for each new index
@@ -23,5 +24,5 @@ export default function findIndex(numbers) {
     // if index not found then continue
     index++;
   }
-  return index === length ? null : index
+  return index === length ? null : index;
 }
