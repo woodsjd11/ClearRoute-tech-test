@@ -16,4 +16,7 @@ describe("integer table", () => {
   it("displays one table by default ", () => {
     cy.get("table").should("have.length", 1);
   });
+  it("should have 4 rows", () => {
+    cy.get("tr").should("have.length", 4);
+  });
 });
